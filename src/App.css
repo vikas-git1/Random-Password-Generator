@@ -5,4 +5,18 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
+  background: linear-gradient(
+    45deg,
+    rgb(193, 3, 236),
+    rgb(236, 8, 130),
+    rgb(128, 0, 47)
+  );
+}
+
+.app__name {
+  text-align: center;
+  background-color: rgba(147, 3, 179, 0.288);
+  border-radius: 5px;
+  color: white;
+  padding: 0.5rem 0rem;
 }
